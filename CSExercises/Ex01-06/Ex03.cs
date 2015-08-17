@@ -10,7 +10,8 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double Number = 15.11;
+            Console.WriteLine(Number * Number);
         }
     }
 }

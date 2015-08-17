@@ -10,7 +10,16 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            String name; //Variable fir storing string value
+
+            //Displaying message for entering value
+            Console.WriteLine("Please enter your name");
+            //Accepcting and holding value in name variable
+            name = Console.ReadLine();
+            //Displaying output
+            Console.WriteLine("Good morning {0}", name);
+
         }
     }
 }
+

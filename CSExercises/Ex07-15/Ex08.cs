@@ -10,7 +10,12 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double celsius, fahren;
+            Console.WriteLine("Enter the temperature in Celsius (°C) :");
+            celsius = int.Parse(Console.ReadLine());
+            fahren = (celsius * 1.8) + 32;
+            Console.WriteLine("Temperature in Fahrenheit is {0}(°F). ", fahren);
+            Console.ReadLine();
         }
     }
 }

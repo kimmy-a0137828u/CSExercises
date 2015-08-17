@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double number = 56;
+            double sqrtnumber;
+            sqrtnumber = Math.Sqrt(number);
+            Console.WriteLine("The square root of {0} is {1:.###}.", number, sqrtnumber);
         }
     }
 }

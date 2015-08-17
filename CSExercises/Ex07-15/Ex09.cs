@@ -10,7 +10,13 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            int x, y;
+            Console.WriteLine("If X = : ");
+            x = int.Parse(Console.ReadLine());
+            y = (2 * x * x )- (4 * x) + 3;
+            Console.WriteLine("Y = {0}",y);
+            Console.ReadLine();
+
         }
     }
 }

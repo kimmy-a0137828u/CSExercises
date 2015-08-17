@@ -10,7 +10,15 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double min, dist, addfare, total;
+
+            min = 2.40;
+            Console.WriteLine("The distance traveled is 3.24KM");
+            dist = 3.24;
+            addfare = 0.4;
+            total = min + dist * addfare;
+
+            Console.WriteLine("The total taxi fare is {0}", total);
         }
     }
 }
