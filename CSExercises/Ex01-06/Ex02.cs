@@ -11,7 +11,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            int number = 10;
+            int number;
+            Console.Write("Please enter a number:");
+            number = int.Parse(Console.ReadLine());
             int squarenum = number * number;
             Console.WriteLine("The square of {0} is {1}",number,squarenum);
         }
