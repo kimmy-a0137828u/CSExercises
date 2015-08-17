@@ -16,9 +16,8 @@ namespace CSExercises
             Console.WriteLine("The distance traveled is 3.24KM");
             dist = 3.24;
             addfare = 0.4;
-            total = (min + dist * addfare);
-            Math.Ceiling((total)/10);
-            Console.WriteLine("The total taxi fare is " + string.Format("{0:0.00}", total));
+            total = Math.Ceiling (min + dist * addfare); //round upwatds to the nearest
+            Console.WriteLine("The total taxi fare is {0:0.00}.", total);
             
         }
     }

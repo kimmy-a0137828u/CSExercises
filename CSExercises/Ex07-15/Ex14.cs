@@ -10,15 +10,19 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            double a, b, c, s, cal, area;
-            a = 35;
-            b = 24;
-            c = 18;
-            s = (a + b + c) / 2;
-            cal = s*(s-a)*(s-b)*(s-c);
-            area = Math.Sqrt(cal);
+            Console.WriteLine("Please enter the side of a.");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter the side of b.");
+            double b = double.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter the side of c.");
+            double c = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("The area is {0}", area);
+            double s = (a + b + c) / 2;
+            double area = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+
+            Console.WriteLine("The area of triangle is {0}.", area);
+
+
 
         }
     }

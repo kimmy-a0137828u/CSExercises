@@ -10,21 +10,25 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            double x1, y1, x2, y2, cal, distance;
-            Console.WriteLine("Please enter the value of the following: X1, Y1, X2, Y2 ");
+            double x1, y1, x2, y2;
+            Console.WriteLine("Please enter the value for: X1");
             x1 = int.Parse(Console.ReadLine());
             Console.WriteLine("X1 = {0}", x1);
+            Console.WriteLine("Please enter the value for: Y1");
             y1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Y1 = {0}", y1);
+            Console.WriteLine("Please enter the value for: X2");
             x2 = int.Parse(Console.ReadLine());
             Console.WriteLine("X2 = {0}", x2);
+            Console.WriteLine("Please enter the value for: Y2");
             y2 = int.Parse(Console.ReadLine());
             Console.WriteLine("Y2 = {0}", y2);
 
-            cal = (x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1);
+            double x = Math.Pow(x2 - x1, 2);
+            double y = Math.Pow(y2 - y1, 2);
 
-            distance = Math.Sqrt(cal);
-            Console.WriteLine("The ditance is {0}", distance);
+            double distance = Math.Sqrt(x+y);
+            Console.WriteLine("The ditance between the point is  {0}", distance);
         }
     }
 }
