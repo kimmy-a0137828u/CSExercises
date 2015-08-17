@@ -8,10 +8,15 @@ namespace CSExercises
 {
     public class Ex03
     {
+
         public static void Main(string[] args)
         {
-            double Number = 15.11;
-            Console.WriteLine(Number * Number);
+            double a, b;  
+            Console.Write("Please enter a number:");
+            string c = Console.ReadLine();
+            a = Convert.ToDouble(c);
+            b = Math.Pow (a, 2); 
+            Console.WriteLine("The result is {0}", b);
         }
     }
 }
