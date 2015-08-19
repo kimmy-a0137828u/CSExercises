@@ -9,7 +9,7 @@ namespace CSExercises
     public class Ex16
     {
         public static void Main(string[] args)
-        {
+        {            
             Console.WriteLine("Please enter your name: ");
             string name = Console.ReadLine();
             Console.WriteLine("Please select your gender: (M = Male or F = Female)");

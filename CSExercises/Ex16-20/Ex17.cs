@@ -28,10 +28,7 @@ namespace CSExercises
             else if ((age < 40) && (gender == "f" || gender == "F"))
                 gender = "Ms.";
                         
-            Console.WriteLine("Good morning {0} {1}. ", gender, name);
-
-
-
+            Console.WriteLine("Good morning {0} {1}. ", gender, name);            
         }
     }
 }

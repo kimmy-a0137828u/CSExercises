@@ -25,8 +25,6 @@ namespace CSExercises
             else grade = "**Error**";
 
             Console.WriteLine("Your scored {0} marks which is {1} grade.", m, grade);
-
-
         }
     }
 }

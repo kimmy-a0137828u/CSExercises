@@ -33,6 +33,7 @@ namespace CSExercises
             total2 = total1 + o3;
 
             Console.WriteLine("Total price for this order is {0:C}", total2);
+
         }
     }
 }

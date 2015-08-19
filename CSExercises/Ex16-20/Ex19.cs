@@ -20,9 +20,7 @@ namespace CSExercises
             double dst2 =Convert.ToDouble(dst); 
                 dst2 = (dst * 10 - 90) * 0.05;
             double total = Math.Round ((2.40 + dst1 + dst2),1);
-            Console.WriteLine("The cost would be {0:C}", total);
-            
-            
+            Console.WriteLine("The cost would be {0:C}", total);                    
             
         }
     }
