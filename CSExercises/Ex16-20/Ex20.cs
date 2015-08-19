@@ -28,7 +28,6 @@ namespace CSExercises
                 total1 = (total1 - (total1* 0.1));
             else if (total1 >= 10000)
                 total1 = (total1 - (total1 * 0.15));
-            else { }
 
             total2 = total1 + o3;
 
